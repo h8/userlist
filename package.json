@@ -1,0 +1,8 @@
+{
+  "name": "userlist",
+  "version": "1.0.0",
+  "description": "Phoenix example application",
+  "scripts": {
+  },
+  "license": "MIT"
+}

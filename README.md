@@ -20,3 +20,4 @@ Population of this list is connected to each commit, please, see commit history.
   * `mix phoenix.gen.model User users name active:boolean`
   * `mix ecto.migrate`
   * `mix run priv/repo/seeds.exs`
+  * `npm init`
