@@ -20,7 +20,9 @@ defmodule Userlist.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Userlist do
-  #   pipe_through :api
-  # end
+  scope "/api", Userlist do
+    pipe_through :api
+
+    resources "/users", UserController, only: [:index]
+  end
 end
