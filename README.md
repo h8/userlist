@@ -16,3 +16,4 @@ Population of this list is connected to each commit, please, see commit history.
 
   * `mix phoenix.new userlist --no-brunch`
   * `cd userlist/`
+  * `mix ecto.create && mix ecto.migrate`
