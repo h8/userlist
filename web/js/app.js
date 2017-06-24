@@ -1,1 +1,3 @@
-console.log("App js loaded.");
+import load from './userlist';
+
+load();
