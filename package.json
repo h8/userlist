@@ -2,7 +2,9 @@
   "name": "userlist",
   "version": "1.0.0",
   "description": "Phoenix example application",
-  "scripts": {
-  },
-  "license": "MIT"
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
 }
