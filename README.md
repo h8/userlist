@@ -25,3 +25,8 @@ Population of this list is connected to each commit, please, see commit history.
   * `npm install --save-dev copy-webpack-plugin`
   * `mix deps.get`
   * `mix release.init`
+  * `npm install --save-dev babel-loader babel-core babel-preset-es2015`
+  * `npm run deploy`
+  * `MIX_ENV=prod mix phoenix.digest`
+  * `MIX_ENV=prod mix release`
+  * `PORT=8080 _build/prod/rel/userlist/bin/userlist console`

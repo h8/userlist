@@ -8,5 +8,17 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin([{ from: __dirname + "/web/static" }])
-  ]
+  ],
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+        query: {
+          presets: ["es2015"]
+        }
+      }
+    ]
+  }
 };
