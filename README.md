@@ -17,3 +17,6 @@ Population of this list is connected to each commit, please, see commit history.
   * `mix phoenix.new userlist --no-brunch`
   * `cd userlist/`
   * `mix ecto.create && mix ecto.migrate`
+  * `mix phoenix.gen.model User users name active:boolean`
+  * `mix ecto.migrate`
+  * `mix run priv/repo/seeds.exs`

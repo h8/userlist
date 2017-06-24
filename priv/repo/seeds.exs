@@ -9,3 +9,19 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Userlist.Repo
+alias Userlist.User
+
+Repo.insert! %User{
+  name: "User 01"
+}
+
+Repo.insert! %User{
+  name: "User 02"
+}
+
+Repo.insert! %User{
+  name: "User 03",
+  active: false
+}
