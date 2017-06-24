@@ -15,7 +15,8 @@ export default function load() {
 
 function render(users) {
   let items = users.reduce(function(acc, user) {
-    return acc + '<li>' + user.name + '</li>';
+    let li = !user.active? '<li class="blocked">' : '<li>';
+    return acc + li + user.name + '</li>';
   }, "");
 
   let container = document.getElementById('user-container');
