@@ -31,6 +31,8 @@ environment :prod do
   set include_erts: true
   set include_src: false
   set cookie: :"/s[5Vq9hW(*IA>grelN4p*NjBHTH~[gfl;vD;:kc}qAShL$MtAI1es!VzyYFcC%p"
+  set pre_start_hook: "rel/hooks/pre_start"
+  set post_start_hook: "rel/hooks/post_start"
 end
 
 # You may define one or more releases in this file.
