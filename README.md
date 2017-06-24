@@ -23,3 +23,5 @@ Population of this list is connected to each commit, please, see commit history.
   * `npm init`
   * `npm install --save-dev webpack`
   * `npm install --save-dev copy-webpack-plugin`
+  * `mix deps.get`
+  * `mix release.init`
