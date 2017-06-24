@@ -30,3 +30,6 @@ Population of this list is connected to each commit, please, see commit history.
   * `MIX_ENV=prod mix phoenix.digest`
   * `MIX_ENV=prod mix release`
   * `PORT=8080 _build/prod/rel/userlist/bin/userlist console`
+  * `MIX_ENV=prod mix release`
+  * `_build/prod/rel/userlist/bin/userlist command 'Elixir.Release.Tasks' migrate`
+  * `PORT=8080 _build/prod/rel/userlist/bin/userlist console`
