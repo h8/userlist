@@ -22,3 +22,4 @@ Population of this list is connected to each commit, please, see commit history.
   * `mix run priv/repo/seeds.exs`
   * `npm init`
   * `npm install --save-dev webpack`
+  * `npm install --save-dev copy-webpack-plugin`
