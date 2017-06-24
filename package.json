@@ -2,7 +2,9 @@
   "name": "userlist",
   "version": "1.0.0",
   "description": "Phoenix example application",
-  "scripts": {},
+  "scripts": {
+    "watch": "webpack --watch-stdin --progress --color"
+  },
   "license": "MIT",
   "devDependencies": {
     "webpack": "^3.0.0"
