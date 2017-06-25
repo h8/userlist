@@ -9,6 +9,9 @@
 
     <title>Userlist</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/user.css") %>">
+    <script>
+      var digest = <%= raw digest() %>
+    </script>
   </head>
 
   <body>
