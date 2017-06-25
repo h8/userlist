@@ -35,3 +35,9 @@ Population of this list is connected to each commit, please, see commit history.
   * `PORT=8080 _build/prod/rel/userlist/bin/userlist console`
   * `MIX_ENV=prod mix release`
   * `PORT=8080 _build/prod/rel/userlist/bin/userlist foreground`
+  * `sudo cp userlist.service /etc/systemd/system`
+  * `sudo systemctl enable userlist.service`
+  * `sudo systemctl start userlist`
+  * `systemctl -l status userlist`
+  * `sudo systemctl stop userlist`
+  * `sudo systemctl disable userlist`

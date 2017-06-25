@@ -1,0 +1,19 @@
+# Userlis is a Phoenix, Webpack and Distillery demo application
+
+[Unit]
+Description=Userlist application
+After=network.target
+
+[Service]
+Type=simple
+User=userlist
+RemainAfterExit=yes
+Environment=PORT=8080
+WorkingDirectory=/opt/userlist
+ExecStart=/opt/userlist/bin/userlist start
+ExecStop=/opt/userlist/bin/userlist stop
+Restart=on-failure
+TimeoutSec=300
+
+[Install]
+WantedBy=multi-user.target
