@@ -5,6 +5,7 @@ Phoenix Webpack and Distillery demo application
 To start UserList app:
 
   * Install dependencies with `mix deps.get`
+  * Install NPM dependencies with `npm install`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   * Start Phoenix endpoint with `mix phoenix.server`
 
